@@ -1,11 +1,11 @@
 {
-  "name": "nodeServerForDialogFlow",
+  "name": "dlgexpress",
   "main": "server.js",
-  "description": "An introduction to developing Node.js apps on the IBM Cloud platform",
-  "version": "0.1.1",
-  "private": false,
+  "description": "dialogflow webhook",
+  "version": "0.0.0",
+  "private": true,
   "engines": {
-    "node": "6.*"
+    "node": "12.*"
   },
   "scripts": {
     "start": "node server.js"
@@ -16,14 +16,15 @@
   },
   "dependencies": {
     "@cloudant/cloudant": "^3.0.2",
+    "@google-cloud/dialogflow": "^3.3.0",
     "actions-on-google": "^2.13.0",
     "axios": "^0.21.1",
     "body-parser": "^1.17.x",
     "cfenv": "^1.0.x",
+    "dialogflow": "^0.6.0",
     "dialogflow-fulfillment": "^0.6.1",
     "dotenv": "^4.0.0",
-    "express": "^4.15.x",
-    "dialogflow": "^0.6.0"
+    "express": "^4.15.x"
   },
   "author": "IBM Corp",
   "license": "Apache-2.0"
