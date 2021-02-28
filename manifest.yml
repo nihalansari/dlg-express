@@ -1,6 +1,8 @@
----
 applications:
- - name: dlg-express
-   random-route: true
-   memory: 128M
-   disk_quota: 128M
+- name: dlg-express
+  buildpack: sdk-for-nodejs
+  stack: cflinuxfs3
+  instances: 1
+  memory: 128M
+  disk_quota: 128M
+  
