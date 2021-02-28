@@ -1,0 +1,70 @@
+{
+  "id": "c8933902-98f2-43f7-9556-86cf6a4d18f3",
+  "name": "getCustomerName",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getName",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2e679686-ce41-4fd9-a20c-0a27d75cb90e",
+          "name": "cname",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$cname",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I must know your name before proceeding!"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "e4555ab4-218d-4b51-9a14-2f6b450cedf0",
+          "name": "person",
+          "required": false,
+          "dataType": "@sys.person",
+          "value": "$person",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thanks $cname. I can help you with product availability. What store and product can I help you with today?",
+            "Thanks $cname. I can let you know availability of products at particular stores. Which product and store are you interested in?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

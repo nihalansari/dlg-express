@@ -1,0 +1,204 @@
+[
+  {
+    "id": "286e5e56-acd1-4d96-af9e-66bf49782e79",
+    "data": [
+      {
+        "text": "Check if ",
+        "userDefined": false
+      },
+      {
+        "text": "Kelloggs",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": true
+      },
+      {
+        "text": " is available at your ",
+        "userDefined": false
+      },
+      {
+        "text": "Surrey Hills",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " store",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06ce20e8-b08b-466e-8f5f-0ceb9fc0a1e5",
+    "data": [
+      {
+        "text": "Check availability of ",
+        "userDefined": false
+      },
+      {
+        "text": "Coke",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": false
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "Surrey Hills",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "88a4b055-a87f-4b7e-8475-e683a1917010",
+    "data": [
+      {
+        "text": "Please ",
+        "userDefined": false
+      },
+      {
+        "text": "check",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " availability of ",
+        "userDefined": false
+      },
+      {
+        "text": "Banana",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": true
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "Paramatta",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e5a0216-b09c-45fc-b2cd-4c07207c7ccb",
+    "data": [
+      {
+        "text": "Does your ",
+        "userDefined": false
+      },
+      {
+        "text": "Surrey Hills",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " store have ",
+        "userDefined": false
+      },
+      {
+        "text": "Coke",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": true
+      },
+      {
+        "text": " available?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "82a2db8d-4fa7-4bcd-9f55-eb50096dfc21",
+    "data": [
+      {
+        "text": "Does your ",
+        "userDefined": false
+      },
+      {
+        "text": "Paramatta",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " store have ",
+        "userDefined": false
+      },
+      {
+        "text": "Chocolate",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": true
+      },
+      {
+        "text": " available?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "adc4a6e3-f51c-444c-a22e-378d5c179e4e",
+    "data": [
+      {
+        "text": "Do you have ",
+        "userDefined": false
+      },
+      {
+        "text": "banana",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": true
+      },
+      {
+        "text": " available?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0806eea8-2b4a-4872-bdaf-9cd57d64bd64",
+    "data": [
+      {
+        "text": "Is banana available at your Surry Hills store?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

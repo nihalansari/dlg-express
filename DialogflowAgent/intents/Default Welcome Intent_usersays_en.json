@@ -1,0 +1,119 @@
+[
+  {
+    "id": "a86132d2-d7a5-4fe8-a48a-e9380e90a061",
+    "data": [
+      {
+        "text": "Hola",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9288f60c-7dc9-4868-b200-337e5736c004",
+    "data": [
+      {
+        "text": "Hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b34b61ce-2beb-41e8-aee4-7cf64c3a56c1",
+    "data": [
+      {
+        "text": "Good Day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e47ba473-237c-4e51-9bb9-4cd00771dc8a",
+    "data": [
+      {
+        "text": "G\u0027Day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2a6c8208-6e58-4543-9ecf-ab564d8450ce",
+    "data": [
+      {
+        "text": "Good Afternoon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a379cd01-c298-40f2-b02b-e585a405a06e",
+    "data": [
+      {
+        "text": "Good Morning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3170f73a-d915-4040-af99-0114b48058ed",
+    "data": [
+      {
+        "text": "Hi there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9d014d62-f43a-4a43-a834-23bbcddcf304",
+    "data": [
+      {
+        "text": "Hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0acd94de-ec07-4a2c-a4ce-e1ffc751ad56",
+    "data": [
+      {
+        "text": "Hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

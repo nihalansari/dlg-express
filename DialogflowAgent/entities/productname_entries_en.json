@@ -1,0 +1,26 @@
+[
+  {
+    "value": "banana ",
+    "synonyms": [
+      "banana "
+    ]
+  },
+  {
+    "value": "chocolate",
+    "synonyms": [
+      "chocolate",
+      "choco"
+    ]
+  },
+  {
+    "value": "coke",
+    "synonyms": [
+      "coke",
+      "soft drinks",
+      "coca cola",
+      "coca-cola",
+      "coke can",
+      "cola drink"
+    ]
+  }
+]

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "a023393b-44d3-41a3-82e6-0fb4ddc698b5",
+    "data": [
+      {
+        "text": "Fred",
+        "meta": "@sys.person",
+        "alias": "person",
+        "userDefined": false
+      },
+      {
+        "text": " is my name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "09e2876b-0136-4f73-85a2-8ddb0fb3e570",
+    "data": [
+      {
+        "text": "Amy",
+        "meta": "@sys.given-name",
+        "alias": "cname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "893627e3-0bdf-4f8d-8cad-a08b5ff3f9a0",
+    "data": [
+      {
+        "text": "Adam",
+        "meta": "@sys.given-name",
+        "alias": "cname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e1661be9-0c3b-4d44-a5ec-dd07c449e832",
+    "data": [
+      {
+        "text": "My given name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Carol",
+        "meta": "@sys.given-name",
+        "alias": "cname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "082ccf8d-8102-4a14-8d94-abcd1c194727",
+    "data": [
+      {
+        "text": "My first name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Mary",
+        "meta": "@sys.given-name",
+        "alias": "cname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "151f2c86-5f67-4cfd-8f75-8e68647c4abf",
+    "data": [
+      {
+        "text": "My friends call me ",
+        "userDefined": false
+      },
+      {
+        "text": "David",
+        "meta": "@sys.given-name",
+        "alias": "cname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2fe9963b-a82b-4ef7-966b-9638e6f75d95",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "Clarke",
+        "meta": "@sys.given-name",
+        "alias": "cname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ca637a75-940e-4d32-ba12-2f3fa19df03c",
+    "data": [
+      {
+        "text": "You may call me ",
+        "userDefined": false
+      },
+      {
+        "text": "Peter",
+        "meta": "@sys.given-name",
+        "alias": "cname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "93f95c07-39ff-4263-8564-a9fea74c1f20",
+    "data": [
+      {
+        "text": "This is ",
+        "userDefined": false
+      },
+      {
+        "text": "Chris",
+        "meta": "@sys.given-name",
+        "alias": "cname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "711c2b9b-eb3d-4fb8-8a28-8505bc0478f6",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "Michael",
+        "meta": "@sys.given-name",
+        "alias": "cname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "016e038c-def9-4800-91e0-be38a596edba",
+    "data": [
+      {
+        "text": "I would prefer to be called ",
+        "userDefined": false
+      },
+      {
+        "text": "Mark",
+        "meta": "@sys.given-name",
+        "alias": "cname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aedc6b60-a095-4b54-9c4a-9c9c83bd9800",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Alex",
+        "meta": "@sys.given-name",
+        "alias": "cname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

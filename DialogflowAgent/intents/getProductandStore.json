@@ -1,0 +1,99 @@
+{
+  "id": "ab453a60-b83b-4d5c-be14-c206d3691e18",
+  "name": "getProductandStore",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "663a87a8-dc22-4d86-a4d6-9a8d32ceb81c",
+          "name": "geo-city",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "value": "$geo-city",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I need to know which store you are interested in."
+            },
+            {
+              "lang": "en",
+              "value": "Please let me know for which store you want this to be checked."
+            },
+            {
+              "lang": "en",
+              "value": "You are yet to enter a store location!"
+            },
+            {
+              "lang": "en",
+              "value": "What store location?"
+            },
+            {
+              "lang": "en",
+              "value": "Which location?"
+            },
+            {
+              "lang": "en",
+              "value": "What location?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "14f3264f-5e9c-4608-8bc1-e86970473078",
+          "name": "productname",
+          "required": true,
+          "dataType": "@productname",
+          "value": "$productname",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "You did not tell me the product name!"
+            },
+            {
+              "lang": "en",
+              "value": "Which product you want to check the availability for?"
+            },
+            {
+              "lang": "en",
+              "value": "What product are you interested in?"
+            },
+            {
+              "lang": "en",
+              "value": "What is the product name?"
+            },
+            {
+              "lang": "en",
+              "value": "Product name please?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

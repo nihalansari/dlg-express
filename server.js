@@ -45,8 +45,10 @@ app.post("/queryStores", express.json(), function (request, response) {
 		console.log(suburb + "," + product);
 		if(result > 0) {
 			agent.add(result + " units of " + product + " are available at our " + suburb + " store.");
+			agent.add("Is there anything else I can do for you today");
 		} else {
 			agent.add("The said product is not available at our " + suburb + " store.");
+			agent.add("Is there anything else I can do for you today");
 		}
   	}  
 });
