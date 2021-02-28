@@ -19,38 +19,13 @@ app.use(bodyParser.json());
 
 var cloudant, mydb;
 
-var state = [
-              {Intent:"Get-Password",                      Status:false},
-              {Intent:"Authentication-Done",           Status:false},
-              {Intent:"Awaiting-More-Details",        Status:false},
-              {Intent:"Trigger-MRP-Simulation",     Status:false},
-              {Intent:"Query-Bom-Error",                  Status:false},
-              {Intent:"Master-Data-Update",            Status:false},
-              {Intent:"Simulation-Completed",        Status:false},
-              {Intent:"User-Confirmed-Choice",      Status:false},
-              {Intent:"User-Confirmed-Best-Choice", Status:false}
-];
-
-var nextAction = [
-              {intent:"Get-Password",               phrase:"my password is ****",   context:"awaiting_password",            lastMessage: "" },
-              {intent:"Authentication-Done",        phrase:"",                                    context:"",                             lastMessage: "" },
-              {intent:"Awaiting-More-Details",      phrase:"yes please",                          context:"awaiting_more_details",        lastMessage: "You were notified of some messages in your worklist." },
-              {intent:"Trigger-MRP-Simulation",     phrase:"lets go ahead with your last suggestion", context:"trigger_mrp_simulation",   lastMessage: "You were given detailso of the message in your worklist." },
-              {intent:"Query-Bom-Error",            phrase:"yes please show",                     context:"query_bom_error",              lastMessage: "You triggered MRP run. You were then asked whether you wanted to see message relating to a particular plant." },
-              {intent:"Master-Data-Update",         phrase:"Please update Master Data",           context:"master_data_update",           lastMessage: "You were about to command a master data update." },
-              {intent:"Simulation-Completed",       phrase:"lets see the results",                context:"simulation_completed",         lastMessage: "You were about to see the list of available vendors for a requisition." },
-              {intent:"User-Confirmed-Choice",      phrase:"Second one looks good",               context:"user_confirmed_choice",        lastMessage: "You were show a list of vendors out of which you have to select one." },
-              {intent:"User-Confirmed-Best-Choice", phrase:"Lets go for it",                      context:"user_confirmed_best_choice",   lastMessage: "You were advised about select the best possible vendor for a requisition." },
-              {intent:"Default Fallback Intent",    phrase:"that is all I needed. Thank you!",    context:"tasks_completed",              lastMessage: "You were supposed to confirm creation of a PO." },
-              {intent:"Refresh-Intent",             phrase:"Unexpected error!",                   context:"",                             lastMessage: "" }
-];
-
 
 app.get('/',(req,res)=>{
 	res.send("calls are initiated from chatbot!");
 	res.end();
 });
 
+//for debugging to know the state of the app at a point in time
 app.get("/state", function (request, response) {
     console.log("Current state of the server:");
     console.log(JSON.stringify(state));
@@ -60,12 +35,8 @@ app.get("/state", function (request, response) {
 });
 
 
-
-//step1: parse
-//step2: decide which intent need to be served 
-//step3: respond with relevant cards 
+//one of the fulfillments from bot
 app.post("/queryStores", function (request, response) {
-
 
 var requestBody = request.body;
 //for DEBUG
@@ -83,16 +54,29 @@ console.log("current intent is:" + currentIntent);
 
 	});
 	
-	function demo(agent){
-		agent.add("Sample response from Webhook");
-	}
-	var intentMap = new Map();
-	intentMap.set('getProductandStore',demo);
-	agent.handleRequest(intentMap);
+  
+  var intentMap = new Map();
+	intentMap.set('getProductandStore',checkProductStock);
+  agent.handleRequest(intentMap);
+  var product = "kelloggs";
+  var suburb = "Manly";
 
+  function checkProductStock(agent){
+    // GET onlinestore/products endpoint
+    // return. Apply any cards if needed
+    axios.get( 'https://2886795289-1337-ollie07.environments.katacoda.com/products?productname=' + product + '&suburb=' + suburb)
+    .then(response => {
+      agent.add(response);
+    })
+    .catch((error) => {
+        agent.add("Error! Please try again.");
+        console.log(error);
+    })
+    
+  }
+  
 
 });
-
 
 
 
