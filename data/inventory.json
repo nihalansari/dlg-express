@@ -1,0 +1,156 @@
+[
+  {
+  "_id": {
+    "$oid": "5a54ee9dc5592eb22a4d1cc8"
+  },
+  "productid": "18362887",
+  "productname": "kelloggs",
+  "productdetails": {
+    "description": "Kellogs Corn Flakes",
+    "otherdesc": "Breakfast Cereal",
+    "unitofmeasure": "grams",
+    "measurement": "500",
+    "price": "5.75",
+    "instock": true,
+    "discount": false,
+    "storesinventory": [
+      {
+        "storeid": "syd0001",
+        "suburb": "Paramatta",
+        "countavailable": 20
+      },
+      {
+        "storeid": "syd0002",
+        "suburb": "Bankstown",
+        "countavailable": 10
+      },
+      {
+        "storeid": "syd0003",
+        "suburb": "Manly",
+        "countavailable": 0
+      },
+      {
+        "storeid": "syd0004",
+        "suburb": "Surrey Hills",
+        "countavailable": 22
+      }
+    ]
+  }
+},
+
+{
+  "_id": {
+    "$oid": "5a54ee9dc5592eb23a4d1cc8"
+  },
+  "productid": "18362887",
+  "productname": "coke",
+  "productdetails": {
+    "description": "Coca Cola 2L",
+    "otherdesc": "cola flavoured soft drink",
+    "unitofmeasure": "ml",
+    "measurement": "2000",
+    "price": "3.89",
+    "instock": true,
+    "discount": false,
+    "storesinventory": [
+      {
+        "storeid": "syd0001",
+        "suburb": "Paramatta",
+        "countavailable": 13
+      },
+      {
+        "storeid": "syd0002",
+        "suburb": "Bankstown",
+        "countavailable": 0
+      },
+      {
+        "storeid": "syd0003",
+        "suburb": "Manly",
+        "countavailable": 20
+      },
+      {
+        "storeid": "syd0004",
+        "suburb": "Surrey Hills",
+        "countavailable": 22
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "5a54ee7dc5592eb22a4d1cc8"
+  },
+  "productid": "18362887",
+  "productname": "nudie",
+  "productdetails": {
+    "description": "Nudie mixed fruit Juice 1L",
+    "otherdesc": "juice",
+    "unitofmeasure": "ml",
+    "measurement": "1000",
+    "price": "9.79",
+    "instock": true,
+    "discount": false,
+    "storesinventory": [
+      {
+        "storeid": "syd0001",
+        "suburb": "Paramatta",
+        "countavailable": 8
+      },
+      {
+        "storeid": "syd0002",
+        "suburb": "Bankstown",
+        "countavailable": 4
+      },
+      {
+        "storeid": "syd0003",
+        "suburb": "Manly",
+        "countavailable": 12
+      },
+      {
+        "storeid": "syd0004",
+        "suburb": "Surrey Hills",
+        "countavailable": 1
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "5a54ee7dc5592eb22a4d1cc8"
+  },
+  "productid": "18362887",
+  "productname": "bananas",
+  "productdetails": {
+    "description": "Fresh packed fruit pack",
+    "otherdesc": "packed bananas x 6",
+    "unitofmeasure": "nos",
+    "measurement": "6",
+    "price": "2.80",
+    "instock": true,
+    "discount": false,
+    "storesinventory": [
+      {
+        "storeid": "syd0001",
+        "suburb": "Paramatta",
+        "countavailable": 40
+      },
+      {
+        "storeid": "syd0002",
+        "suburb": "Bankstown",
+        "countavailable": 24
+      },
+      {
+        "storeid": "syd0003",
+        "suburb": "Manly",
+        "countavailable": 12
+      },
+      {
+        "storeid": "syd0004",
+        "suburb": "Surrey Hills",
+        "countavailable": 28
+      }
+    ]
+  }
+}
+
+]

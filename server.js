@@ -2,9 +2,7 @@ const express = require("express");
 const app = express();
 const dlg = require('dialogflow-fulfillment'); 
 const axios = require('axios');
-var bodyParser = require('body-parser')
-var template = require('./cardTemplate')
-var routines = require("./routines")
+const bodyParser = require('body-parser');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -18,19 +16,19 @@ app.get('/',(req,res)=>{
 	res.end();
 });
 
-//for debugging to know the state of the app at a point in time
-app.get("/state", function (request, response) {
-    console.log("Current state of the server:");
-    console.log(JSON.stringify(state));
-    response.send(state);
-    response.end();
-    return;   
-});
-
 
 //one of the fulfillments from bot
 app.post("/queryStores", express.json(), function (request, response) {
+
 	var requestBody = request.body;
+	console.log(requestBody);
+	//const product = requestBody.queryResult.outputContexts[0].name;
+	//const suburb = requestBody.queryResult.intent.displayName;
+
+	const suburb = requestBody.queryResult.parameters['geo-city'].toString();
+	const product = requestBody.queryResult.parameters.productname;
+	console.log(suburb + "," + product);
+
 	const agent = new dlg.WebhookClient({
 		request: request,
 		response: response
@@ -42,21 +40,16 @@ app.post("/queryStores", express.json(), function (request, response) {
   	agent.handleRequest(intentMap);
 
   	function checkProductStock(agent){
-		agent.add("Response from webhook");
-/*	    axios.get( 'https://2886795289-1337-ollie07.environments.katacoda.com/products?productname=' + product + '&suburb=' + suburb)
-    		.then(response => {
-      		agent.add(response);
-    		})
-    		.catch((error) => {
-        		agent.add("Error! Please try again.");
-        		console.log(error);
-    		});
-*/
+		const routines = require('./routines');
+  		const result = routines.getStockInfo(product,suburb);
+		console.log(suburb + "," + product);
+		if(result > 0) {
+			agent.add(result + " units of " + product + " are available at our " + suburb + " store.");
+		} else {
+			agent.add("The said product is not available at our " + suburb + " store.");
+		}
   	}  
 });
-
-
-
 
 //serve static file (index.html, images, css)
 app.use(express.static(__dirname + '/views'));
@@ -70,12 +63,5 @@ app.listen(port, function() {
 
 
 
-/*
-const currentContext = requestBody.queryResult.outputContexts[0].name;
-const currentIntent = requestBody.queryResult.intent.displayName; 
-console.log("#####WEBHOOK Request Received: Body is:");
-console.log("Context array is:");
-console.log(JSON.stringify(requestBody.queryResult.outputContexts));
-console.log("current context is:" + currentContext);
-console.log("current intent is:" + currentIntent);
-*/  
+
+
