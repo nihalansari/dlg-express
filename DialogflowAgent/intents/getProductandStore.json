@@ -10,13 +10,13 @@
       "affectedContexts": [],
       "parameters": [
         {
-          "id": "663a87a8-dc22-4d86-a4d6-9a8d32ceb81c",
+          "id": "dc13547f-5c71-4cf8-b78b-d4f36d054a92",
           "name": "geo-city",
           "required": true,
           "dataType": "@sys.geo-city",
           "value": "$geo-city",
           "defaultValue": "",
-          "isList": true,
+          "isList": false,
           "prompts": [
             {
               "lang": "en",
@@ -49,7 +49,7 @@
           "outputDialogContexts": []
         },
         {
-          "id": "14f3264f-5e9c-4608-8bc1-e86970473078",
+          "id": "ec083f10-76b0-47b5-b46a-18c3889ca258",
           "name": "productname",
           "required": true,
           "dataType": "@productname",
@@ -90,7 +90,7 @@
   ],
   "priority": 500000,
   "webhookUsed": true,
-  "webhookForSlotFilling": true,
+  "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],
   "conditionalResponses": [],

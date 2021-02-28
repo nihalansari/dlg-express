@@ -35,13 +35,13 @@
   },
   "defaultTimezone": "Australia/Sydney",
   "webhook": {
-    "url": "https://6d93497484b3.ngrok.io/queryStores",
+    "url": "https://c544d6ad5a34.ngrok.io/queryStores",
     "username": "",
     "headers": {},
     "available": true,
     "useForDomains": false,
     "cloudFunctionsEnabled": false,
-    "cloudFunctionsInitialized": false
+    "cloudFunctionsInitialized": true
   },
   "isPrivate": true,
   "mlMinConfidence": 0.3,

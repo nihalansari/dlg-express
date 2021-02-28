@@ -4,30 +4,25 @@
     "$oid": "5a54ee9dc5592eb22a4d1cc8"
   },
   "productid": "18362887",
-  "productname": "kelloggs",
+  "productname": "apples",
   "productdetails": {
-    "description": "Kellogs Corn Flakes",
-    "otherdesc": "Breakfast Cereal",
+    "description": "Fresh fruit",
+    "otherdesc": "Apple packed",
     "unitofmeasure": "grams",
-    "measurement": "500",
+    "measurement": "1000",
     "price": "5.75",
     "instock": true,
     "discount": false,
     "storesinventory": [
       {
         "storeid": "syd0001",
-        "suburb": "Paramatta",
+        "suburb": "Parramatta",
         "countavailable": 20
       },
       {
         "storeid": "syd0002",
         "suburb": "Bankstown",
         "countavailable": 10
-      },
-      {
-        "storeid": "syd0003",
-        "suburb": "Manly",
-        "countavailable": 0
       },
       {
         "storeid": "syd0004",
@@ -55,18 +50,13 @@
     "storesinventory": [
       {
         "storeid": "syd0001",
-        "suburb": "Paramatta",
+        "suburb": "Parramatta",
         "countavailable": 13
       },
       {
         "storeid": "syd0002",
         "suburb": "Bankstown",
         "countavailable": 0
-      },
-      {
-        "storeid": "syd0003",
-        "suburb": "Manly",
-        "countavailable": 20
       },
       {
         "storeid": "syd0004",
@@ -93,18 +83,13 @@
     "storesinventory": [
       {
         "storeid": "syd0001",
-        "suburb": "Paramatta",
+        "suburb": "Parramatta",
         "countavailable": 8
       },
       {
         "storeid": "syd0002",
         "suburb": "Bankstown",
         "countavailable": 4
-      },
-      {
-        "storeid": "syd0003",
-        "suburb": "Manly",
-        "countavailable": 12
       },
       {
         "storeid": "syd0004",
@@ -131,7 +116,7 @@
     "storesinventory": [
       {
         "storeid": "syd0001",
-        "suburb": "Paramatta",
+        "suburb": "Parramatta",
         "countavailable": 40
       },
       {
@@ -140,17 +125,45 @@
         "countavailable": 24
       },
       {
-        "storeid": "syd0003",
-        "suburb": "Manly",
-        "countavailable": 12
-      },
-      {
         "storeid": "syd0004",
         "suburb": "Surrey Hills",
         "countavailable": 28
       }
     ]
   }
-}
+},
+  {
+    "_id": {
+      "$oid": "5a54ee7dc5592eb22a4d1cc8"
+    },
+    "productid": "18362887",
+    "productname": "banana",
+    "productdetails": {
+      "description": "Fresh packed fruit pack",
+      "otherdesc": "packed bananas x 6",
+      "unitofmeasure": "nos",
+      "measurement": "6",
+      "price": "2.80",
+      "instock": true,
+      "discount": false,
+      "storesinventory": [
+        {
+          "storeid": "syd0001",
+          "suburb": "Parramatta",
+          "countavailable": 40
+        },
+        {
+          "storeid": "syd0002",
+          "suburb": "Bankstown",
+          "countavailable": 24
+        },
+        {
+          "storeid": "syd0004",
+          "suburb": "Surrey Hills",
+          "countavailable": 28
+        }
+      ]
+    }
+  }
 
 ]

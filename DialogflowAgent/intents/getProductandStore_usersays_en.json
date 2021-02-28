@@ -1,5 +1,485 @@
 [
   {
+    "id": "21543ec8-e5b8-48ca-a794-d30a6bcd3a86",
+    "data": [
+      {
+        "text": "Bankstown",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9ff6e8c6-55c7-40f3-9808-485480e8baa4",
+    "data": [
+      {
+        "text": "Parramatta",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "53b6747a-2a13-4471-9d45-d1bd91fe8c74",
+    "data": [
+      {
+        "text": "Surrey Hills",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f3be842e-ddeb-49ea-8973-3dbb57000abb",
+    "data": [
+      {
+        "text": "cokes",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0b8bd39c-f3b6-4c83-83f9-a838f80fecf7",
+    "data": [
+      {
+        "text": "coke",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "09869822-1b5a-458d-a9bb-8a16518ccfe0",
+    "data": [
+      {
+        "text": "apples",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b56df36b-85e8-4fb6-8ffa-e64d198ce20e",
+    "data": [
+      {
+        "text": "apple",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f5f37ca4-885f-4b0b-b8dc-23efe512e24f",
+    "data": [
+      {
+        "text": "bananas",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "312b5150-ef2c-4106-88c6-7f49679beae2",
+    "data": [
+      {
+        "text": "banana",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bad9fb09-56c6-4e79-993b-71a1ee9264bb",
+    "data": [
+      {
+        "text": "i want to check availability for ",
+        "userDefined": false
+      },
+      {
+        "text": "bananas",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e6e7c92c-f670-496f-975a-45a8ab62cf92",
+    "data": [
+      {
+        "text": "i want to check availability at your ",
+        "userDefined": false
+      },
+      {
+        "text": "Manly",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " store",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "98935ad7-34a6-428d-832b-8abc9b598567",
+    "data": [
+      {
+        "text": "I need to check availability of ",
+        "userDefined": false
+      },
+      {
+        "text": "some products",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4efcb28c-1f8d-40e9-af10-2d174e0d0238",
+    "data": [
+      {
+        "text": "I want to check availability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4cd181b8-a9b6-43a7-9b35-ba36567e9510",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "banana",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": true
+      },
+      {
+        "text": " available at your ",
+        "userDefined": false
+      },
+      {
+        "text": "Manly",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " store",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a84b8d0-5dbe-4348-9384-8f7ea9a0c0a0",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "apple",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": true
+      },
+      {
+        "text": " available at your ",
+        "userDefined": false
+      },
+      {
+        "text": "Manly",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " store",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06f97c49-06be-4469-9666-99127dbcb5c1",
+    "data": [
+      {
+        "text": "Are ",
+        "userDefined": false
+      },
+      {
+        "text": "apples",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": true
+      },
+      {
+        "text": " available at your ",
+        "userDefined": false
+      },
+      {
+        "text": "Manly",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " store",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "90a0fb90-a6ed-4cf5-8b4f-0de9741fbda4",
+    "data": [
+      {
+        "text": "Are ",
+        "userDefined": false
+      },
+      {
+        "text": "bananas",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": true
+      },
+      {
+        "text": " available at your ",
+        "userDefined": false
+      },
+      {
+        "text": "Manly",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " store",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "01fd328a-0938-448b-bd6c-e77b18c133e8",
+    "data": [
+      {
+        "text": "check availability at ",
+        "userDefined": false
+      },
+      {
+        "text": "Surrey Hills",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a94a7b8b-b72a-4859-b0f1-befae63fa29d",
+    "data": [
+      {
+        "text": "check availability of ",
+        "userDefined": false
+      },
+      {
+        "text": "bananas",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "06e0b274-d249-48f7-a1c1-d609adc86427",
+    "data": [
+      {
+        "text": "check availability of ",
+        "userDefined": false
+      },
+      {
+        "text": "apples",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": false
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "Manly",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c79f87e5-26af-4b39-8604-df40ccf70992",
+    "data": [
+      {
+        "text": "check availability of ",
+        "userDefined": false
+      },
+      {
+        "text": "bananas",
+        "meta": "@productname",
+        "alias": "productname",
+        "userDefined": false
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "Parramatta",
+        "meta": "@sys.geo-city",
+        "alias": "geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "24b7f93f-109d-4806-9fac-84bad41b7898",
+    "data": [
+      {
+        "text": "check availability ",
+        "userDefined": false
+      },
+      {
+        "text": "please",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ac7713f6-04a7-47ce-87aa-3c0635a68d00",
+    "data": [
+      {
+        "text": "check availability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "22e3e1bd-1ed0-47d1-9073-68f40a8824f2",
+    "data": [
+      {
+        "text": "i would like to check availability",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "286e5e56-acd1-4d96-af9e-66bf49782e79",
     "data": [
       {
